@@ -9,7 +9,7 @@ export default function About() {
   const [darkMode] = useContext(ThemeContext);
   const [colorTheme] = useContext(ColorThemeContext);
 
-  document.title = "TextUtils - About"
+  document.title = "StringCraft - About"
 
   setBodyColor(colorTheme);
 
@@ -34,7 +34,7 @@ export default function About() {
           </h2>
           <div id="collapseOne" style={darkMode ? collapseStyle : {}} className={`accordion-collapse collapse show ${colorClass(colorTheme)}`} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-              TextUtils gives you a way to analyze your text quickly and efficiently. Be it word count, character count or coverting raw text to any case, TextUtils is the place to visit.
+              StringCraft gives you a way to analyze your text quickly and efficiently. Be it word count, character count or coverting raw text to any case, StringCraft is the place to visit.
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function About() {
           </h2>
           <div id="collapseTwo" style={darkMode ? collapseStyle : {}} className={`accordion-collapse collapse ${colorClass(colorTheme)}`} aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-              TextUtils is a free character counter tool that provides instant character count and word count statistics for a given text. It reports the number of words and characters. Thus, it is suitable for writing text with word/character limit.
+              StringCraft is a free character counter tool that provides instant character count and word count statistics for a given text. It reports the number of words and characters. Thus, it is suitable for writing text with word/character limit.
             </div>
           </div>
         </div>

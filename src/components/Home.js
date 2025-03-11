@@ -8,7 +8,7 @@ import { setBodyColor } from '../utils/colorUtils';
 
 export default function Home({ showNotif }) {
    
-    document.title = "TextUtils - Word Counter | Character Counter | Uppercase to Lowercase | Lowercase to Uppercase"
+    document.title = "StringCraft - Word Counter | Character Counter | Uppercase to Lowercase | Lowercase to Uppercase"
 
     const [colorTheme] = useContext(ColorThemeContext);
     
@@ -16,7 +16,7 @@ export default function Home({ showNotif }) {
 
     return (
         <TextProvider>
-            <TextForm heading="Try TextUtils - Word Counter, Character Counter, Remove extra spaces" />
+            <TextForm heading="Try StringCraft - Word Counter, Character Counter, Remove extra spaces" />
             <Operation showNotif={showNotif} />
             <TextSummary />
         </TextProvider>

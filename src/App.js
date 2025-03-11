@@ -23,7 +23,7 @@ function App() {
     <ThemeProvider>
       <ColorThemeProvider>
         <BrowserRouter>
-          <Navbar title="TextUtil" showNotif={showNotif} />
+          <Navbar title="StringCraft" showNotif={showNotif} />
           <Notification notifmsg={notifmsg} />
           <Routes>
             <Route exact path="/" element={<Home showNotif={showNotif} />} />
