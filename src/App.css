@@ -1,0 +1,58 @@
+.nav-link {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.customThemeSelector {
+    margin-right: 2vw;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.body-red {
+    background-color: #ff8686;
+}
+
+.body-yellow {
+    background-color: rgb(255 243 125);
+}
+
+.body-green {
+    background-color: rgb(139 224 144);
+}
+
+.text-area-red:focus, .text-area-red {
+    background-color: #efc1c1;
+}
+
+.text-area-yellow:focus, .text-area-yellow {
+    background-color: rgb(255 254 207);
+}
+
+.text-area-green:focus, .text-area-green {
+    background-color: rgb(207 243 223);
+}
+
+.btn-red {
+    background-color: red;
+}
+
+.btn-yellow {
+    background-color: orange;
+}
+
+.btn-green {
+    background-color: green;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
